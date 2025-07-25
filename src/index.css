@@ -131,7 +131,7 @@
   }
 
   .grid-tile-content {
-    @apply relative z-10 p-8;
+    @apply relative z-10 p-8 w-full h-full flex flex-col items-center justify-center;
   }
 
   /* Section-specific tile colors */

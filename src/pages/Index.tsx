@@ -35,19 +35,19 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       {/* Header */}
-      <header className="pt-16 pb-8 text-center">
-        <h1 className="text-2xl md:text-3xl font-light tracking-wide text-foreground">
+      <header className="text-center" style={{ paddingTop: 'clamp(2rem, 10vw, 4rem)', paddingBottom: 'clamp(1rem, 5vw, 2rem)' }}>
+        <h1 className="font-light tracking-wide text-foreground" style={{ fontSize: 'clamp(1.5rem, 5vw, 2.25rem)' }}>
           a+design antje solenski
         </h1>
-        <p className="text-sm text-muted-foreground mt-2 tracking-wider">
+        <p className="text-muted-foreground mt-2 tracking-wider" style={{ fontSize: 'clamp(0.875rem, 2.5vw, 1rem)' }}>
           Portfolio und Studioseite für visuelle Kommunikation und Grafikdesign
         </p>
       </header>
 
       {/* Main Grid */}
       <main className="px-4 md:px-8">
-        <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-1 md:gap-2">
+        <div className="max-w-3xl mx-auto">
+          <div className="grid grid-cols-2 gap-1 md:gap-2">
             {navigationTiles.map((tile) => (
               <GridTile
                 key={tile.slug}

@@ -1,9 +1,5 @@
 const ConstructionBanner = () => {
-  return (
-    <div className="construction-banner">
-      +++ Internetpräsenz im Aufbau +++
-    </div>
-  );
+  return null;
 };
 
 export default ConstructionBanner;
