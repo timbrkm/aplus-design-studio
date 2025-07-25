@@ -32,25 +32,30 @@ export default {
 					DEFAULT: 'hsl(var(--secondary))',
 					foreground: 'hsl(var(--secondary-foreground))'
 				},
-				destructive: {
-					DEFAULT: 'hsl(var(--destructive))',
-					foreground: 'hsl(var(--destructive-foreground))'
-				},
 				muted: {
 					DEFAULT: 'hsl(var(--muted))',
 					foreground: 'hsl(var(--muted-foreground))'
 				},
-				accent: {
-					DEFAULT: 'hsl(var(--accent))',
-					foreground: 'hsl(var(--accent-foreground))'
-				},
-				popover: {
-					DEFAULT: 'hsl(var(--popover))',
-					foreground: 'hsl(var(--popover-foreground))'
-				},
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
+				},
+				// Color-coded sections
+				portfolio: {
+					DEFAULT: 'hsl(var(--portfolio))',
+					foreground: 'hsl(var(--portfolio-foreground))'
+				},
+				about: {
+					DEFAULT: 'hsl(var(--about))',
+					foreground: 'hsl(var(--about-foreground))'
+				},
+				contact: {
+					DEFAULT: 'hsl(var(--contact))',
+					foreground: 'hsl(var(--contact-foreground))'
+				},
+				statement: {
+					DEFAULT: 'hsl(var(--statement))',
+					foreground: 'hsl(var(--statement-foreground))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
