@@ -1,5 +1,4 @@
 import GridTile from "@/components/GridTile";
-import ConstructionBanner from "@/components/ConstructionBanner";
 
 const Index = () => {
   const navigationTiles = [
@@ -35,8 +34,6 @@ const Index = () => {
 
   return (
     <div className="min-h-screen">
-      <ConstructionBanner />
-      
       {/* Header */}
       <header className="pt-16 pb-8 text-center">
         <h1 className="text-2xl md:text-3xl font-light tracking-wide text-foreground">

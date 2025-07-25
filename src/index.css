@@ -14,7 +14,7 @@
     --portfolio: 197 21% 72%; /* Blaugrau #AFC2C9 */
     --portfolio-foreground: 0 0% 15%;
     
-    --about: 128 24% 75%; /* Salbeigrün #BCCDB6 */
+    --about: 100 20% 70%; /* Angepasstes Grün */
     --about-foreground: 0 0% 15%;
     
     --contact: 31 100% 42%; /* Senforange #D97900 */
@@ -123,7 +123,7 @@
   .grid-tile {
     @apply relative overflow-hidden cursor-pointer transition-all duration-300 ease-in-out;
     @apply flex items-center justify-center text-center;
-    @apply min-h-[50vh] md:min-h-[45vh];
+    @apply aspect-square;
   }
 
   .grid-tile:hover {
